@@ -144,7 +144,7 @@ import random
 def five():
     random_list = []
     list2 = []
-    for number in range(0, 12):
+    for number in range(0, 50):
         n = (random.randint(100, 201))
         random_list.append(n)
     
@@ -153,6 +153,8 @@ def five():
             list2.append(each_number)
 
     return list2[0:5]
+
+
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
