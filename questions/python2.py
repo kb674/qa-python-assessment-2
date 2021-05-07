@@ -81,7 +81,15 @@ def two(number):
 
 
 def three(a):
-    return 1
+    one = str(a)
+    two = str(a) + str(a)
+    three = str(a) + str(a) + str(a)
+    four = str(a) + str(a) + str(a) + str(a)
+
+    sum = int(one) + int(two) + int(three) + int(four)
+
+    return sum
+
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
