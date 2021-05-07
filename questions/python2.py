@@ -241,9 +241,14 @@ def eight(string,  a):
     length_of_string = int(len(string))
     x = length_of_string - int(a)
     y = int(x/2)
-    return string[:y] + string[-y:]
+    if a < length_of_string:
+        return string[:y] + string[-y:]
+    elif a == length_of_string:
+        return ""
+    else:
+        return ""
 
-#works for all unit test except the last one
+#This should work with all the tests now
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
