@@ -139,10 +139,20 @@ def four(string1, string2):
     # <HINT>
     # There is a module which can be used to generate random numbers, this module is called random.
     # The random module contains a function called randint.
-
+import random
 
 def five():
-    return []
+    random_list = []
+    list2 = []
+    for number in range(0, 12):
+        n = (random.randint(100, 201))
+        random_list.append(n)
+    
+    for each_number in random_list:
+        if each_number % 2 ==0:
+            list2.append(each_number)
+
+    return list2[0:5]
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
