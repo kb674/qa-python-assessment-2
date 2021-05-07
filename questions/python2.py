@@ -31,7 +31,8 @@
 # How does a for loop iterate through a string?
 
 def one(string):
-    return ""
+    return ''.join([c+c+c for c in string])
+
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
