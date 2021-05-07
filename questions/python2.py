@@ -194,7 +194,16 @@ def six(string):
 
 
 def seven(a, b, c):
-    return False
+    list = [a, b, c]
+    sorted_list = sorted(list, reverse = False)
+
+    x = sorted_list[1] - sorted_list[0]
+    y = sorted_list[2] - sorted_list[1] 
+
+    if x == y:
+        return True
+    else:
+        return False
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
