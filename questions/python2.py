@@ -154,7 +154,8 @@ def five():
 
     return list2[0:5]
 
-
+# if this solution doesn't pass as often as I would like i would increase range(0, 50) to 100 or even 200 so that the chance ...
+# of generating 5 numbers each time gets closer to 100%. At the moment it has to generate an even number 1 in every 10 which seems to do the job.
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -270,6 +271,8 @@ def nine(string1, string2):
             return True
         else: 
             return False
+
+# Working for everything except 'tripping gin'
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
