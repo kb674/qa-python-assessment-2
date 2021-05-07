@@ -52,7 +52,16 @@ def one(string):
 
 
 def two(number):
-    return False
+    list1 = []
+    the_list = [1, number]
+    for each_number in range(1, number+1):
+        if number % each_number == 0:
+            list1.append(each_number)
+    
+    if list1 == the_list:
+        return True
+    else:
+        return False
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
