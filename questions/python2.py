@@ -244,7 +244,19 @@ def eight(string,  a):
 
 
 def nine(string1, string2):
-    return False
+    list1 = []
+    list2 = []
+
+    for each_letter in string1:
+        list1.append(each_letter)
+    for each_letter in string2:
+        list2.append(each_letter)
+    
+    for each_letter in list1:
+        if each_letter in list2:
+            return True
+        else: 
+            return False
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------
 
